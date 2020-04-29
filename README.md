@@ -106,3 +106,8 @@ Notice the last expectation of our test: `expect{puts status}.to raise_error(Nam
 def catch_phrase(phrase)
   puts phrase
 end
+
+def rescue_princess_peach
+  status = "rescued"
+  puts "Hooray! Mario has rescued Princess Peach."
+end
